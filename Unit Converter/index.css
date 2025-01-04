@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  text-align: center;
+}
+
+.hero {
+  background: #6943fe;
+  padding: 30px;
+  border-radius: 10px;
+  margin: 5 5 15 5;
+  color: white;
+  text-align: center;
+}
+
+.convert {
+  background-color: white;
+  margin: 4px;
+  width: 100px;
+  height: 35px;
+  border-radius: 6px;
+  margin-top: 20px;
+  border: none;
+  font-size: 14px;
+}
+
+.main {
+  background: #f4f4f4;
+  padding: 10px;
+  margin: 10px;
+}
+
+.section {
+  background: white;
+  padding: 5px;
+}
+
+.hero .convert:hover {
+  background-color: #6943fe;
+  border: 2px solid black;
+}
