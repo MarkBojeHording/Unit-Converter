@@ -1,15 +1,31 @@
 body {
   margin: 0;
   text-align: center;
+  background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
 }
 
 .hero {
   background: #6943fe;
   padding: 30px;
   border-radius: 10px;
-  margin: 5 5 15 5;
+  margin: 5px 5px 40px 5px;
   color: white;
   text-align: center;
+}
+
+input[type="text"] {
+  width: 100px;
+  height: 70px;
+  font-size: 50px;
+  padding: 5px;
+  border: 2px solid #B295FF;
+  border-radius: 5px;
+  outline: none;
+  background-color: #6943fe;
+  color: white;
+  text-align: center;
+  font-weight: bold;
 }
 
 .convert {
@@ -23,15 +39,14 @@ body {
   font-size: 14px;
 }
 
-.main {
-  background: #f4f4f4;
-  padding: 10px;
-  margin: 10px;
-}
-
-.section {
-  background: white;
-  padding: 5px;
+.main > div {
+  margin: 20px auto;
+  padding: 15px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  text-align: center;
 }
 
 .hero .convert:hover {
